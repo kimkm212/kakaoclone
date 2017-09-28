@@ -1,0 +1,65 @@
+.top-header--transparent {
+    background: transparent;
+}
+
+
+.profile .profile__header {
+    height: 50vh;
+    background-image: url("https://i.pinimg.com/736x/0f/2d/2d/0f2d2d17de96eac4927051a1e17298d3--google-material-glass-screen.jpg");
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    top: -60px;
+    z-index: -1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__header-container {
+    text-align: center;
+    position: relative;
+    bottom: -80px;
+}
+
+.profile__header-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile .profile__container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.profile__container input {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.profile__actions {
+    display: flex;
+}
+
+.profile .profile__action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+.profile .profile__action-circle {
+    background-color: #f2f2f2;
+    padding:15px;
+    border-radius: 50%;
+    color: #523737;
+    margin-bottom: 10px;
+}

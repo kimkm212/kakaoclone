@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Friends</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://use.fontawesome.com/8b2186f534.js"></script>
   </head>
   <body>
-    <header>
+    <header class="top-header">
       <div class="header__top">
         <div class="header__column">
           <i class="fa fa-fighter-jet" aria-hidden="true"></i>
@@ -44,32 +44,37 @@
         <i class="fa fa-search"></i>
         <input type="text" placeholder="Find freinds, chats, Plus Friends">
       </div>
-      <section class="friends__profile">
-        <header>
-          <h6 class="friends__profile-title">My Profile</h6>
+      <section class="friends__section">
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">My Profile</h6>
         </header>
-        <div class="friends__profile-rows">
-          <div class="friends__profile-row">
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
             <img src="images/avatar.png" alt="">
-            <span class="friends__profile-name">찌니찌니</span>
+            <a href="profile.html" class="fiends__section-name">
+              미니미니
+            </a>
           </div>
-          <div class="friends__profile-row">
+          <div class="friends__section-row">
             <img src="images/avatar.png" alt="">
-            <span class="friends__profile-name">미니미니</span>
+            <span class="fiends__section-name">찌니찌니</span>
           </div>
         </div>
       </section>
-      <section class="friends__friend-list">
+      <section class="friends__section">
         <header class="friends__section-header">
-          <h6 class="friends__section-title"></h6>
+          <h6 class="friends__section-title">Friends</h6>
         </header>
-        <div class="friends__section-row">
-          <div class="friends__section-row">
-            <div class="friends__section-column">김미니</div>
+        <div class="friends__section-rows">
+          <div class="friends__section-row with-tagline">
+            <div class="friends__section-column">
+              <img src="images/avatar.png" alt="">
+              <span class="friends__section-name">미니미니</span>
+            </div>
+            <span class="friends__section-tagline">
+              자바스크립트를 배워라 !@#!@#!@#!@#!@#!@#!@#!@#!@#!@
+            </span>
           </div>
-          <span class="friends__section-tagline">
-            자바스크립트를 배워랍
-          </span>
         </div>
       </section>
     </main>
